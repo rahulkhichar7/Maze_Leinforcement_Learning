@@ -1,4 +1,4 @@
-# 🧭 MazeRL — Interactive Q-Learning Maze Simulator
+# 🧭 MazeRL: Interactive Q-Learning Maze Simulator
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Now-blue?style=for-the-badge&logo=github)](https://srajan0149.github.io/MazeRL/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
