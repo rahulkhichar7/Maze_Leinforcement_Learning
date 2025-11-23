@@ -8,9 +8,11 @@ MazeRL is an elegant, interactive web-based visualization tool that brings **Q-L
 
 ---
 ## 🌐 Live Demo
-Experience the fully interactive MazeRL simulator directly in your browser.  
-👉 **Live here:** https://srajan0149.github.io/MazeRL/  
+Experience the fully interactive MazeRL simulator directly in your browser.  
+👉 **Live here:** https://srajan0149.github.io/MazeRL/  
 No installation required — pure client-side execution.
+
+
 
 ---
 
@@ -39,9 +41,9 @@ Powered by pure client-side **JavaScript**, MazeRL requires no installation or b
 
 ### 🤖 Real-Time Q-Learning Engine
 * **Hyperparameter Control**:
-    * **$\alpha$ (Alpha)**: Learning rate for updates.
-    * **$\gamma$ (Gamma)**: Discount factor for future rewards.
-    * **$\varepsilon$ (Epsilon)**: Exploration-exploitation balance.
+    * **$\alpha$ (Alpha)**: Learning rate for updates.
+    * **$\gamma$ (Gamma)**: Discount factor for future rewards.
+    * **$\varepsilon$ (Epsilon)**: Exploration-exploitation balance.
 * **Flexible Training**: Run from quick tests to extensive sessions.
 * **Granular Control**: Step through episodes, pause, resume, or halt anytime.
 * **Live Updates**: Observe Q-table evolution in real-time.
@@ -130,9 +132,8 @@ Each grid cell $(r, c)$ represents a unique state $s$.
 ### Q-Update Equation
 
 The agent updates its knowledge using the Bellman equation derivative:
-$$
-Q(s, a) \leftarrow Q(s, a) + \alpha [R + \gamma \max_{a'}Q(s', a') - Q(s, a)]
-$$
+
+
 ### Policy
 **Epsilon-Greedy Exploration**:
 * With probability $\varepsilon$: Select a **random action**.
@@ -145,10 +146,9 @@ The project is organized for simplicity and clarity:
 
 ```text
 MazeRL/
-│── index.html          # Main application structure
-│── script.js           # Core Q-Learning and visualization logic
-│── styles.css          # Styling and layout
-│── demo.png            # Screenshot/Demo image
-│── README.md           # This file
-└── assets/             # Auxiliary files (if any)
-
+│── index.html          # Main application structure
+│── script.js           # Core Q-Learning and visualization logic
+│── styles.css          # Styling and layout
+│── demo.png            # Screenshot/Demo image
+│── README.md           # This file
+└── assets/             # Auxiliary files (if any)
