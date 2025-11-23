@@ -128,11 +128,11 @@ Each grid cell $(r, c)$ represents a unique state $s$.
 | **Reach Goal** | +10 |
 
 ### Q-Update Equation
+
 The agent updates its knowledge using the Bellman equation derivative:
 $$
 Q(s, a) \leftarrow Q(s, a) + \alpha [R + \gamma \max_{a'}Q(s', a') - Q(s, a)]
 $$
-
 ### Policy
 **Epsilon-Greedy Exploration**:
 * With probability $\varepsilon$: Select a **random action**.
